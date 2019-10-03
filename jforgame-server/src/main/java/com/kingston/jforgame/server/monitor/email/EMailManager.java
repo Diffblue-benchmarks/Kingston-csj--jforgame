@@ -62,7 +62,7 @@ public class EMailManager {
 
 			// 4. 根据 Session 获取邮件传输对象
 			Transport transport = session.getTransport();
-			transport.connect(emailConfig.getSenderEmailAddr(), emailConfig.getSenderEmailPwd());
+			transport.connect(null, emailConfig.getSenderEmailAddr(), emailConfig.getSenderEmailPwd());
 
 			for (String receiver : emailConfig.getReceivers()) {
 				// 3. 创建一封邮件
