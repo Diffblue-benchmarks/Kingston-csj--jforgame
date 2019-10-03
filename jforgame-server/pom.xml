@@ -7,6 +7,7 @@
 		<groupId>com.kingston</groupId>
 		<artifactId>jforgame-parent</artifactId>
 		<version>1.0.0</version>
+		<relativePath>../jforgame-parent/pom.xml</relativePath>
 	</parent>
 
 	<artifactId>jforgame-server</artifactId>
